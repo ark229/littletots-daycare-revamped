@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>daycareResponsive</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image.css" />
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Modern-Contact-Form.css" />
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css" />
+    <link rel="stylesheet" href="assets/css/Scroll-To-Top-Button.css" />
+    <link rel="stylesheet" href="assets/css/Scroll-To-Top.css" />
+    <link rel="stylesheet" href="assets/css/Shop-item-1.css" />
+    <link rel="stylesheet" href="assets/css/Shop-item.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/Team.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean-button"
+      style="background: var(--bs-teal); max-width: 100%"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><a href="index.html"
+            ><img
+              src="assets/img/1littletotslogo.png"
+              style="width: 254px; height: 71.3125px"
+              aria-label="Little Tots logo Image. Go back to Home Page"
+              alt="Little Tots Daycare Logo" /></a></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navcol-1"
+          style="padding-top: 17px"
+        >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html"
+                style="
+                  color: var(--bs-white);
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="programs.html"
+                style="
+                  color: var(--bs-white);
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+                >Programs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="resources.html"
+                style="
+                  color: var(--bs-white);
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+                >Resources</a
+              >
+            </li>
+          </ul>
+          <div>
+            <div
+              class="modal fade font-monospace"
+              role="dialog"
+              tabindex="-1"
+              id="myModal"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Send us a message!</h4>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <section class="getintouch">
+                      <div class="container modern-form">
+                        <div class="text-center">
+                          <h4 style="color: #212529; font-size: 18px">
+                            <br />IMPORTANT NOTE: Please include your primary
+                            phone number in your message.<br /><br />
+                          </h4>
+                        </div>
+                        <div class="modern-form__form-container">
+                          <form>
+                            <div class="row">
+                              <div class="col col-contact">
+                                <div
+                                  class="modern-form__form-group--padding-r form-group mb-3"
+                                >
+                                  <input
+                                    class="form-control input input-tr"
+                                    type="text"
+                                    placeholder="First Name"
+                                  />
+                                  <div class="line-box">
+                                    <div class="line"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col col-contact">
+                                <div
+                                  class="modern-form__form-group--padding-l form-group mb-3"
+                                >
+                                  <input
+                                    class="form-control input input-tr"
+                                    type="text"
+                                    placeholder="Email"
+                                  />
+                                  <div class="line-box">
+                                    <div class="line"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <div
+                                  class="modern-form__form-group--padding-t form-group mb-3"
+                                >
+                                  <textarea
+                                    class="form-control input modern-form__form-control--textarea"
+                                    placeholder="Message"
+                                  ></textarea>
+                                  <div class="line-box">
+                                    <div class="line"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col text-center">
+                                <button
+                                  class="btn btn-primary submit-now"
+                                  type="submit"
+                                  onclick="submit()"
+                                >
+                                  Submit Now
+                                </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="modal-footer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="btn btn-primary"
+            role="button"
+            style="
+              width: 113.5px;
+              height: 50px;
+              font-weight: bold;
+              font-size: 22px;
+              background: var(--bs-yellow);
+              color: var(--bs-dark);
+              padding-right: 12px;
+              margin-right: 20px;
+            "
+            href="contact.html"
+            >Contact</a
+          ><span class="navbar-text actions"> </span>
+        </div>
+      </div>
+    </nav>
+    <section class="position-relative py-4 py-xl-5">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col">
+            <iframe
+              allowfullscreen=""
+              frameborder="0"
+              loading="lazy"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAq18ARFFhJOZDjoWG6MJ98q2oQKXd9wV4&amp;q=50+Milk+Street%2C+Boston%2C+MA&amp;zoom=11"
+              width="100%"
+              height="100%"
+            ></iframe>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div>
+              <form class="p-3 p-xl-4" method="post">
+                <h4>Send us a message!</h4>
+                <p class="text-muted">
+                  If you have questions about tuition, job openings, or want to
+                  schedule a tour, please let us know and we will contact you
+                  shortly.<br />
+                </p>
+                <div class="mb-3">
+                  <label class="form-label" for="name">Name</label
+                  ><input
+                    class="form-control"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required=""
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label
+                  ><input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required=""
+                  />
+                </div>
+                <label class="form-label">Phone</label
+                ><input class="form-control" type="tel" required="" />
+                <div style="height: 120px; padding-top: 12px; font-size: 16px">
+                  <label class="form-label">Contact me by:</label>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Either email or phone
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Email only
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Phone only
+                    </label>
+                  </div>
+                </div>
+                <div class="mb-3" style="padding-top: 6px">
+                  <label
+                    class="form-label"
+                    for="message"
+                    style="padding-top: 10px"
+                    >Message</label
+                  ><textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required=""
+                  ></textarea>
+                </div>
+                <div class="mb-3">
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    style="background: var(--bs-orange)"
+                    onclick="submitnow()"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="footer-clean"
+      style="background: var(--bs-white); color: var(--bs-gray-900)"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 text-center item">
+            <h3 style="color: var(--bs-teal); padding-bottom: 0px">Site Map</h3>
+            <ul>
+              <li><a href="staff.html">Staff</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="programs.html">Programs</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li></li>
+              <li><a href="swagshop.html">Swag Shop</a></li>
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="careers.html">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 text-center item">
+            <h3 style="color: var(--bs-teal)">Visit Us</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <p style="font-size: 14px">
+              Little Tots Daycare Center <br />50 Milk Street <br />Boston, MA
+              02109 <br />(410) 533-XXXX <br /><a
+                href="mailto:admin@LittleTotsBoston.org"
+                >admin@LittleTotsBoston.org</a
+              ><br /><br />
+            </p>
+          </div>
+          <div class="col-sm-4 col-md-3 text-center item">
+            <h3 style="color: var(--bs-teal)">Little Tots Daycare</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <p style="font-size: 14px; height: 147px">
+              Tax-exempt, 501(c)3 Organization: <br />EIN 45-3915852<br /><br />
+            </p>
+          </div>
+          <div class="col-lg-3 text-center item social">
+            <a href="#" style="color: var(--bs-teal)"
+              ><i class="icon ion-social-facebook"></i></a
+            ><a href="#"
+              ><i
+                class="icon ion-social-twitter"
+                style="color: var(--bs-teal)"
+              ></i></a
+            ><a href="#"
+              ><i
+                class="icon ion-social-instagram"
+                style="color: var(--bs-teal)"
+              ></i
+            ></a>
+            <p class="copyright">Little Tots Daycare © 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a
+      id="scroll-to-top"
+      title="Scroll to top"
+      href="#"
+      style="margin-left: 12px; margin-right: -29px"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Scroll-To-Top-Button.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
