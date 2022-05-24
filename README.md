@@ -1,4 +1,4 @@
-# littletots-daycare-revamped
+# Little Tots Daycare (Revamped)
 Little Tots Daycare Website (Revamped) is a Website that was re-recreated 
 with the UX Design Process in mind.
 
