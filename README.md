@@ -3,7 +3,7 @@
 Little Tots Daycare Website (Revamped) is a Website that was re-recreated 
 with the UX Design and User Experience Process in mind.
 
-Features:
+## Features:
 1. Fully responsive design for various screen sizes (desktop, mobile, table).
 2. HTML, CSS, JavaScript, and Less.
 3. Custom design, layout, and content. 
